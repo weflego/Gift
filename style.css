@@ -95,8 +95,7 @@ i {
 
 .front {
     z-index: 1;
-    backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
+   
     border-left: white solid 2px;
 }
 
@@ -114,8 +113,7 @@ i {
     align-items: center;
     font-family: cursive;
     font-style: italic;
-    backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
+    
     overflow: hidden;
 }
 
