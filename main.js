@@ -19,8 +19,8 @@ let maxState = numOfPapers + 1;
 
 function openBook() {
     book.style.transform = "translateX(50%)";
-    prevBtn.style.transform = "translateX(-180px)";
-    nextBtn.style.transform = "translateX(180px)";
+    prevBtn.style.transform = "translateX(-12vw)";
+    nextBtn.style.transform = "translateX(12vw)";
     
         // Start background audio when first page is flipped
         const bgAudio = document.getElementById('bg-audio');
