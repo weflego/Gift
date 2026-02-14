@@ -59,12 +59,14 @@ i {
     transform-style: preserve-3d;
     -webkit-transform-style: preserve-3d;
     
+    
 }
 
 .front {
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
     border-left: 3px solid darkred;
+    border: white solid 2px;
 }
 
 .front, 
@@ -78,10 +80,13 @@ i {
     justify-content: center;
     align-items: center;
     background-color: darkred;
+    border: white solid 2px;
     transform-origin: left;
     transition: transform 0.5s;
     transform-style: preserve-3d;
     -webkit-transform-style: preserve-3d;
+
+    
    
 }
     
@@ -107,6 +112,8 @@ i {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: cursive;
+    font-style: italic;
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
     overflow: hidden;
@@ -120,6 +127,8 @@ i {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: cursive;
+    font-style: italic;
     overflow: hidden;
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
@@ -185,11 +194,18 @@ i {
     margin-bottom: 20px;
     
 }
+#b1 i {
+        color: white;
+        font-size: 1.5em;
+    margin-bottom: 20px;
+
+}
 #f2 {
     padding: 20px;
     text-align: center;
     font-size: 1.2em;
     justify-content: space-around;
+    position: relative;
 }
 
 #f2 h1 {
@@ -202,6 +218,37 @@ i {
 #f2 p {
     margin-bottom: 20px;
     
+}
+#f2 i {
+        color: white;
+        font-size: 1em;
+        margin-bottom: 0;
+        position: absolute;
+}
+
+#f2 i:nth-child(1) {
+    top: 10px;
+    right: 10px;
+}
+
+#f2 i:nth-child(2) {
+    top: 10px;
+    right: 35px;
+}
+
+#f2 i:nth-child(3) {
+    top: 25px;
+    right: 22px;
+}
+#f2 i:nth-child(4) {
+    bottom: 10px;
+    left: 10px;
+}#f2 i:nth-child(5) {
+    bottom: 10px;
+    left: 35px;
+}#f2 i:nth-child(6) {
+    bottom: 25px;
+    left: 22px;
 }
 #b2 {
     padding: 20px;
@@ -221,6 +268,37 @@ i {
     margin-bottom: 20px;
     
 }
+#b2 i {
+        color: white;
+        font-size: 1em;
+        margin-bottom: 0;
+        position: absolute;
+}
+
+#b2 i:nth-child(1) {
+    top: 10px;
+    right: 10px;
+}
+
+#b2 i:nth-child(2) {
+    top: 10px;
+    right: 35px;
+}
+
+#b2 i:nth-child(3) {
+    top: 25px;
+    right: 22px;
+}
+#b2 i:nth-child(4) {
+    bottom: 10px;
+    left: 10px;
+}#b2 i:nth-child(5) {
+    bottom: 10px;
+    left: 35px;
+}#b2 i:nth-child(6) {
+    bottom: 25px;
+    left: 22px;
+}
 #f3 {
     padding: 20px;
     text-align: center;
@@ -236,8 +314,39 @@ i {
 }
 
 #f3 p {
-    margin-bottom: 20px;
+    margin-bottom: 8px;
     
+}
+#f3 i {
+        color: white;
+        font-size: 1em;
+        margin-bottom: 0;
+        position: absolute;
+}
+
+#f3 i:nth-child(1) {
+    top: 10px;
+    right: 10px;
+}
+
+#f3 i:nth-child(2) {
+    top: 10px;
+    right: 35px;
+}
+
+#f3 i:nth-child(3) {
+    top: 25px;
+    right: 22px;
+}
+#f3 i:nth-child(4) {
+    bottom: 10px;
+    left: 10px;
+}#f3 i:nth-child(5) {
+    bottom: 10px;
+    left: 35px;
+}#f3 i:nth-child(6) {
+    bottom: 25px;
+    left: 22px;
 }
 #b3 {
     padding: 20px;
@@ -257,6 +366,13 @@ i {
     margin-bottom: 20px;
     
 }
+#b3 i {
+        color: white;
+        font-size: 1.5em;
+    margin-bottom: 20px;
+
+}
+
 
 .content {
     overflow: hidden;
