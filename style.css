@@ -40,8 +40,11 @@ i {
 
 /* Book */
 .book {
-    width: 350px;
-    height: 500px;
+    width: 90vw;
+    height: 90vw;
+    max-width: 350px;
+    max-height: 500px;
+    aspect-ratio: 350 / 500;
     position: relative;
     transition: transform 0.5s;
     transform-style: preserve-3d;
