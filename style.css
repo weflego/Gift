@@ -130,8 +130,7 @@ i {
     font-family: cursive;
     font-style: italic;
     overflow: hidden;
-    backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
+    
     
 }
 .back-content {
